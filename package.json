@@ -1,0 +1,25 @@
+{
+  "name": "random-retangles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/drewProgram/webGL-random-rectangles.git",
+  "author": "Andrew Filgueiras <andrew.lascasas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webgl-helper": "^0.0.7"
+  }
+}
